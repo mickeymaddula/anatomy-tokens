@@ -49,6 +49,17 @@ const getConfig = (destination) => ({
         }
       ],
       ...platformsConfig
+    },
+    json: {
+      transformGroup: 'json',
+      buildPath: 'lib/json/',
+      files: [
+        {
+          destination: `${destination}.json`,
+          format: 'json/flat'
+        }
+      ],
+      ...platformsConfig
     }
   }
 });
