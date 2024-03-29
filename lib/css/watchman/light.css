@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Mar 2024 19:38:02 GMT
+ * Generated on Fri, 29 Mar 2024 19:53:24 GMT
  */
 
 :root {
@@ -206,13 +206,13 @@
   --breadcrumbs-default-separator: var(--text-color-primary);
   --breadcrumbs-default-text: var(--text-color-primary);
   --accordion-warning-border: var(--border-color-warning);
-  --accordion-warning-background: var(--surface-warning);
+  --accordion-warning-background: var(--surface-warning-subtle);
   --accordion-warning-icon: var(--icon-color-warning);
   --accordion-success-border: var(--border-color-success);
-  --accordion-success-background: var(--surface-success);
+  --accordion-success-background: var(--surface-success-subtle);
   --accordion-success-icon: var(--icon-color-success);
   --accordion-error-border: var(--border-color-error);
-  --accordion-error-background: var(--surface-error);
+  --accordion-error-background: var(--surface-error-subtle);
   --accordion-error-icon: var(--icon-color-error);
   --accordion-active-icon: var(--icon-color-action);
   --accordion-active-text: var(--text-color-action);
