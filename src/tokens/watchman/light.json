@@ -125,7 +125,7 @@
   "surfaces": {
     "type": "color",
     "surface-default": {
-      "value": "{neutral colors.neutral-00}"
+      "value": "{neutral colors.neutral-100}"
     },
     "surface-inverse": {
       "value": "{neutral colors.neutral-00}"

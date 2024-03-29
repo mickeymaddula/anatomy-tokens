@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Mar 2024 19:53:24 GMT
+ * Generated on Fri, 29 Mar 2024 20:56:21 GMT
  */
 
 :root {
@@ -79,7 +79,7 @@
   --surface-subtle: var(--neutral-95);
   --surface-assertive: var(--action-primary-20);
   --surface-inverse: var(--neutral-00);
-  --surface-default: var(--neutral-00);
+  --surface-default: var(--neutral-100);
   --icon-color-warning: var(--feedback-warning-40);
   --icon-color-success: var(--feedback-success-40);
   --icon-color-error: var(--feedback-error-40);
