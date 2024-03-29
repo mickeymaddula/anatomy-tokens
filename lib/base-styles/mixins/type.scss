@@ -72,11 +72,11 @@ $fs-display: (
 }
 
 @mixin font-family-base-regular {
-  font-family: $font-family-base-regular;
-  font-weight: $font-weight-regular;
+  font-family: var(--font-family-base-regular);
+  font-weight: var(--font-weight-regular);
 }
 
 @mixin font-family-base-heavy {
-  font-family: $font-family-base-heavy;
-  font-weight: $font-weight-heavy;
+  font-family: var(--font-family-base-heavy);
+  font-weight: var(--font-weight-heavy);
 }

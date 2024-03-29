@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Mar 2024 20:49:31 GMT
+ * Generated on Fri, 29 Mar 2024 19:38:02 GMT
  */
 
 :root {
@@ -68,10 +68,13 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
+  --surface-warning-subtle: var(--feedback-warning-95);
   --surface-warning: var(--feedback-warning-95);
+  --surface-success-subtle: var(--feedback-success-95);
   --surface-success: var(--feedback-success-95);
   --surface-informational: var(--action-primary-97);
   --surface-error-assertive: var(--feedback-error-40);
+  --surface-error-subtle: var(--feedback-error-95);
   --surface-error: var(--feedback-error-95);
   --surface-subtle: var(--neutral-95);
   --surface-assertive: var(--action-primary-20);

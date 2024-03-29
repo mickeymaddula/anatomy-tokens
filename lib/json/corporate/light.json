@@ -212,10 +212,13 @@
   "surface-assertive": "#012965",
   "surface-subtle": "#f2f2f2",
   "surface-error": "#fce9ea",
+  "surface-error-subtle": "#fce9ea",
   "surface-error-assertive": "#b31921",
   "surface-informational": "#f2f7ff",
   "surface-success": "#ebf9f9",
+  "surface-success-subtle": "#ebf9f9",
   "surface-warning": "#fbf7e9",
+  "surface-warning-subtle": "#fbf7e9",
   "transparency-overlay-primary": "rgba(0, 0, 0, 0.6)",
   "transparency-overlay-primary-inverse": "rgba(255, 255, 255, 0.6)",
   "transparency-zero": "rgba(255, 255, 255, 0)"

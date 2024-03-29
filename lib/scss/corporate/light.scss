@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated on Thu, 28 Mar 2024 20:49:31 GMT
+// Generated on Fri, 29 Mar 2024 19:38:02 GMT
 
 $transparency-zero: rgba(255, 255, 255, 0);
 $transparency-overlay-primary-inverse: rgba(255, 255, 255, 0.6);
@@ -65,10 +65,13 @@ $space-md: 0.5rem;
 $space-sm: 0.25rem;
 $space-xs: 0.125rem;
 $space-xxs: 0.063rem;
+$surface-warning-subtle: $feedback-warning-95;
 $surface-warning: $feedback-warning-95;
+$surface-success-subtle: $feedback-success-95;
 $surface-success: $feedback-success-95;
 $surface-informational: $action-primary-97;
 $surface-error-assertive: $feedback-error-40;
+$surface-error-subtle: $feedback-error-95;
 $surface-error: $feedback-error-95;
 $surface-subtle: $neutral-95;
 $surface-assertive: $action-primary-20;

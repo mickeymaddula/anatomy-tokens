@@ -1,24 +1,66 @@
 /* stylelint-disable declaration-property-value-allowed-list */
 /* stylelint-disable at-rule-allowed-list */
 /* stylelint-disable annotation-no-unknown */
-
-// Box shadows
-$box-shadow-primary: 0 0 $space-lg 0 rgba($neutral-00, 0.2);
-$box-shadow-secondary: 0 $space-xs $space-2x 0 rgba($neutral-00, 0.1);
-$box-shadow-tertiary: 0 $space-xs 0.625rem 0 rgba($neutral-00, 0.2);
-
-// Negative space
-$space-negative-xxs: calc(0rem - $space-xxs);
-$space-negative-xs: calc(0rem - $space-xs);
-
-// App width
 :root {
   --app-width: 100%;
+
+  // Fonts
+  --font-family-base-regular: 'SST-Roman', sans-serif;
+  --font-family-base-heavy: 'SST-Heavy', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-heavy: 900;
+
+  // Box shadows
+  --box-shadow-primary: 0 0 $space-lg 0 rgba(0, 0, 0, 0.2);
+  --box-shadow-secondary: 0 $space-xs $space-2x 0 rgba(0, 0, 0, 0.1);
+  --box-shadow-tertiary: 0 $space-xs 0.625rem 0 rgba(0, 0, 0, 0.2);
+
+  // Type scale
+  --fs-h1: 2.101rem;
+  --fs-h2: 1.811rem;
+  --fs-h3: 1.561rem;
+  --fs-h4: 1.346rem;
+  --fs-h5: 1.16rem;
+  --fs-h6: 1rem;
+  --fs-body: 1rem;
+  --fs-body-assertive: 1.16rem;
+  --fs-body-subtle: 0.906rem;
+  --fs-small: 0.75rem;
+  --fs-display: 2.436rem;
+
+  // Space scale
+  --space-xxs: 0.063rem;
+  --space-xs: 0.125rem;
+  --space-sm: 0.25rem;
+  --space-md: 0.5rem;
+  --space-lg: 0.75rem;
+  --space-2x: 1rem;
+  --space-3x: 1.5rem;
+  --space-4x: 2rem;
+  --space-6x: 3rem;
+  --space-8x: 4rem;
+  --space-12x: 6rem;
+  --space-15x: 7.5rem;
+
+  // Negative spaces
+  --space-negative-xs: calc(0rem - var(--space-xs));
+  --space-negative-xxs: calc(0rem - var(--space-xxs));
 }
 
 @media (min-width: $breakpoint-lg-min) {
   :root {
     --app-width: 60rem;
+    --fs-h1: 2.574rem;
+    --fs-h2: 2.181rem;
+    --fs-h3: 1.848rem;
+    --fs-h4: 1.5666rem;
+    --fs-h5: 1.328rem;
+    --fs-h6: 1.125rem;
+    --fs-body: 1.125rem;
+    --fs-body-assertive: 1.328rem;
+    --fs-body-subtle: 0.906rem;
+    --fs-small: 0.75rem;
+    --fs-display: 3.036rem;
   }
 }
 
@@ -64,8 +106,3 @@ $font-path: '../../fonts' !default;
     url('#{$font-path}/SST-Heavy/SST-Heavy.svg#SST-Heavy') format('svg'),
     url('#{$font-path}/SST-Heavy/SST-Heavy.eot?#iefix') format('embedded-opentype');
 }
-
-$font-family-base-regular: 'SST-Roman', sans-serif;
-$font-family-base-heavy: 'SST-Heavy', sans-serif;
-$font-weight-regular: 400;
-$font-weight-heavy: 900;

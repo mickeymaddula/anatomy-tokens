@@ -78,12 +78,12 @@ const brands = [
 brands.forEach((brand) => {
   brand.modes.forEach((mode) => {
     StyleDictionary.extend({
-      include: [`tokens/*.json`, `tokens/${brand.name}/globals/*.json`],
-      source: [`tokens/${brand.name}/${mode}.json`],
+      include: [`src/tokens/*.json`, `src/tokens/${brand.name}/globals/*.json`],
+      source: [`src/tokens/${brand.name}/${mode}.json`],
       ...getConfig(`${brand.name}/${mode}`)
     }).buildAllPlatforms();
   });
 });
 
-fs.cpSync('src/sass/base-styles', 'lib/scss/base-styles', { recursive: true });
+fs.cpSync('src/base-styles', 'lib/base-styles', { recursive: true });
 fs.cpSync('src/fonts', 'lib/fonts', { recursive: true });
