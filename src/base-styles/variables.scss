@@ -10,11 +10,6 @@
   --font-weight-regular: 400;
   --font-weight-heavy: 900;
 
-  // Box shadows
-  --box-shadow-primary: 0 0 $space-lg 0 rgba(0, 0, 0, 0.2);
-  --box-shadow-secondary: 0 $space-xs $space-2x 0 rgba(0, 0, 0, 0.1);
-  --box-shadow-tertiary: 0 $space-xs 0.625rem 0 rgba(0, 0, 0, 0.2);
-
   // Type scale
   --fs-h1: 2.101rem;
   --fs-h2: 1.811rem;
@@ -46,6 +41,11 @@
   // Negative spaces
   --space-negative-xs: calc(0rem - var(--space-xs));
   --space-negative-xxs: calc(0rem - var(--space-xxs));
+
+  // Box shadows
+  --box-shadow-primary: 0 0 var(--space-lg) 0 var(--box-shadow-primary-color);
+  --box-shadow-secondary: 0 var(--space-xs) var(--space-2x) 0 var(--box-shadow-secondary-color);
+  --box-shadow-tertiary: 0 var(--space-xs) 0.625rem 0 var(--box-shadow-tertiary-color);
 }
 
 @media (min-width: $breakpoint-lg-min) {

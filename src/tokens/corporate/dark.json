@@ -44,6 +44,17 @@
       "value": "{feedback-warning colors.feedback-warning-60}"
     }
   },
+  "shadows": {
+    "box-shadow-primary-color": {
+      "value": "rgba(0, 0, 0, 1)"
+    },
+    "box-shadow-secondary-color": {
+      "value": "rgba(0, 0, 0, 1)"
+    },
+    "box-shadow-tertiary-color": {
+      "value": "rgba(0, 0, 0, 1)"
+    }
+  },
   "decorative icons": {
     "type": "color",
     "icon-decorative-subtle": {
