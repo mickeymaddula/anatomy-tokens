@@ -2,13 +2,13 @@
   "action": {
     "type": "color",
     "action-default": {
-      "value": "{action-primary colors.action-primary-95}"
+      "value": "{action-primary colors.action-primary-40}"
     },
     "action-hover": {
-      "value": "{action-primary colors.action-primary-80}"
+      "value": "{action-primary colors.action-primary-60}"
     },
     "action-active": {
-      "value": "{action-primary colors.action-primary-80}"
+      "value": "{action-primary colors.action-primary-60}"
     }
   },
   "accent": {
