@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 Apr 2024 14:00:18 GMT
+ * Generated on Fri, 05 Apr 2024 20:04:45 GMT
  */
 
 :root {
@@ -112,9 +112,9 @@
   --border-color-action: var(--action-primary-20);
   --accent-featured-tag: var(--accent-primary-30);
   --accent-callout: var(--accent-primary-60);
-  --action-active: var(--action-primary-20);
-  --action-hover: var(--action-primary-20);
-  --action-default: var(--action-primary-40);
+  --action-active: var(--action-primary-10);
+  --action-hover: var(--action-primary-10);
+  --action-default: var(--action-primary-20);
   --gradient-subtle-stop-2: var(--neutral-95);
   --gradient-subtle-stop-1: var(--neutral-100);
   --gradient-assertive-stop-2: var(--neutral-00);
