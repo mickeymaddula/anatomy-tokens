@@ -1,6 +1,38 @@
 /* stylelint-disable declaration-property-value-allowed-list */
 /* stylelint-disable at-rule-allowed-list */
 /* stylelint-disable annotation-no-unknown */
+
+// Type
+$font-path: '../../fonts' !default;
+
+@font-face {
+  font-family: 'SST-Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url('#{$font-path}/SST-Roman/SST-Roman.eot');
+  src:
+    url('#{$font-path}/SST-Roman/SST-Roman.woff2') format('woff2'),
+    url('#{$font-path}/SST-Roman/SST-Roman.woff') format('woff'),
+    url('#{$font-path}/SST-Roman/SST-Roman.ttf') format('truetype'),
+    url('#{$font-path}/SST-Roman/SST-Roman.svg#SST-Roman') format('svg'),
+    url('#{$font-path}/SST-Roman/SST-Roman.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SST-Heavy';
+  font-style: normal;
+  font-weight: 500 900;
+  font-display: fallback;
+  src: url('#{$font-path}/SST-Heavy/SST-Heavy.eot');
+  src:
+    url('#{$font-path}/SST-Heavy/SST-Heavy.woff2') format('woff2'),
+    url('#{$font-path}/SST-Heavy/SST-Heavy.woff') format('woff'),
+    url('#{$font-path}/SST-Heavy/SST-Heavy.ttf') format('truetype'),
+    url('#{$font-path}/SST-Heavy/SST-Heavy.svg#SST-Heavy') format('svg'),
+    url('#{$font-path}/SST-Heavy/SST-Heavy.eot?#iefix') format('embedded-opentype');
+}
+
 :root {
   --app-width: 100%;
 
@@ -22,7 +54,7 @@
   --fs-body-subtle: 0.906rem;
   --fs-small: 0.75rem;
   --fs-display: 2.436rem;
-  --ffs-body-assertive: 1.125rem; // NOTE: this is a one-off size
+  --ffs-body-assertive: 1.125rem;
 
   // Space scale
   --space-xxs: 0.063rem;
@@ -75,35 +107,4 @@
   :root {
     --app-width: 82.5rem;
   }
-}
-
-// Type
-$font-path: '../../fonts' !default;
-
-@font-face {
-  font-family: 'SST-Roman';
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: url('#{$font-path}/SST-Roman/SST-Roman.eot');
-  src:
-    url('#{$font-path}/SST-Roman/SST-Roman.woff2') format('woff2'),
-    url('#{$font-path}/SST-Roman/SST-Roman.woff') format('woff'),
-    url('#{$font-path}/SST-Roman/SST-Roman.ttf') format('truetype'),
-    url('#{$font-path}/SST-Roman/SST-Roman.svg#SST-Roman') format('svg'),
-    url('#{$font-path}/SST-Roman/SST-Roman.eot?#iefix') format('embedded-opentype');
-}
-
-@font-face {
-  font-family: 'SST-Heavy';
-  font-style: normal;
-  font-weight: 500 900;
-  font-display: fallback;
-  src: url('#{$font-path}/SST-Heavy/SST-Heavy.eot');
-  src:
-    url('#{$font-path}/SST-Heavy/SST-Heavy.woff2') format('woff2'),
-    url('#{$font-path}/SST-Heavy/SST-Heavy.woff') format('woff'),
-    url('#{$font-path}/SST-Heavy/SST-Heavy.ttf') format('truetype'),
-    url('#{$font-path}/SST-Heavy/SST-Heavy.svg#SST-Heavy') format('svg'),
-    url('#{$font-path}/SST-Heavy/SST-Heavy.eot?#iefix') format('embedded-opentype');
 }

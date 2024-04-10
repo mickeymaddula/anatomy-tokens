@@ -87,7 +87,7 @@
 }
 
 @mixin border-gradient-accent {
-  border-width: $space-sm;
+  border-width: var(--space-sm);
   border-style: solid;
   border-image-source: var(--gradient-accent);
   border-image-slice: 1;
