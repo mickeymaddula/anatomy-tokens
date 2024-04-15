@@ -91,7 +91,7 @@
       "value": "{feedback-error colors.feedback-error-60}"
     },
     "text-color-disabled": {
-      "value": "{neutral colors.neutral-40}"
+      "value": "{neutral colors.neutral-80}"
     },
     "text-color-primary": {
       "value": "{neutral colors.neutral-95}"
