@@ -11,15 +11,6 @@
       "value": "{action-primary colors.action-primary-60}"
     }
   },
-  "accent": {
-    "type": "color",
-    "accent-callout": {
-      "value": "{accent-primary colors.accent-primary-30}"
-    },
-    "accent-featured-tag": {
-      "value": "{neutral colors.neutral-100}"
-    }
-  },
   "borders": {
     "type": "color",
     "border-color-action": {
@@ -91,7 +82,7 @@
       "value": "{feedback-error colors.feedback-error-60}"
     },
     "text-color-disabled": {
-      "value": "{neutral colors.neutral-80}"
+      "value": "{neutral colors.neutral-60}"
     },
     "text-color-primary": {
       "value": "{neutral colors.neutral-95}"
@@ -182,6 +173,17 @@
     },
     "transparency-zero": {
       "value": "rgba(255, 255, 255, 0)"
+    }
+  },
+  "components": {
+    "ribbon-text": {
+      "value": "{neutral colors.neutral-10}"
+    },
+    "callout-bar": {
+      "value": "{accent-primary colors.accent-primary-30}"
+    },
+    "accent-featured-tag": {
+      "value": "{neutral colors.neutral-100}"
     }
   }
 }
