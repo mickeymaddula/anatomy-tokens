@@ -13,6 +13,13 @@ Design tokens for Anatomy, Boston Scientific's global design system.
 
 \* _The repository secret `NPM_TOKEN` is an auth token that allows GitHub to publish. It comes from Ash Johns' npm account and is set to not expire._
 
+### Beta Releases
+
+1. Pull latest from develop and checkout branch `release/X.Y.Z-beta.A`
+2. Run npm version (write out full version name eg: 5.0.0-beta.9)
+3. PR/Merge `release/X.Y.Z-beta.A` into `develop`
+4. Run `npm publish --tag beta`
+
 ## Scripts
 
 In the project directory, run:
