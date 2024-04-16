@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 16 Apr 2024 15:19:10 GMT
+ * Generated on Tue, 16 Apr 2024 19:40:48 GMT
  */
 
 :root {
@@ -98,7 +98,7 @@
   --text-color-inverse: var(--neutral-00);
   --text-color-subtle: var(--neutral-40);
   --text-color-primary: var(--neutral-95);
-  --text-color-disabled: var(--neutral-40);
+  --text-color-disabled: var(--neutral-60);
   --text-color-error: var(--feedback-error-60);
   --text-color-button: var(--neutral-100);
   --text-color-action: var(--action-primary-95);

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 16 Apr 2024 15:19:10 GMT
+ * Generated on Tue, 16 Apr 2024 19:40:48 GMT
  */
 
 :root {
@@ -84,7 +84,7 @@
   --surface-error: var(--feedback-error-60);
   --surface-subtle: var(--neutral-20);
   --surface-assertive: var(--neutral-100);
-  --surface-inverse: var(--neutral-95);
+  --surface-inverse: var(--neutral-100);
   --surface-default: var(--neutral-10);
   --icon-color-warning: var(--feedback-warning-60);
   --icon-color-success: var(--feedback-success-40);
