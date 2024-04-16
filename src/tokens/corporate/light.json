@@ -11,15 +11,6 @@
       "value": "{action-primary colors.action-primary-20}"
     }
   },
-  "accent": {
-    "type": "color",
-    "accent-callout": {
-      "value": "{accent-primary colors.accent-primary-60}"
-    },
-    "accent-featured-tag": {
-      "value": "{accent-primary colors.accent-primary-30}"
-    }
-  },
   "borders": {
     "type": "color",
     "border-color-action": {
@@ -182,6 +173,17 @@
     },
     "transparency-zero": {
       "value": "rgba(255, 255, 255, 0)"
+    }
+  },
+  "components": {
+    "ribbon-text": {
+      "value": "{neutral colors.neutral-00}"
+    },
+    "callout-bar": {
+      "value": "{accent-primary colors.accent-primary-60}"
+    },
+    "accent-featured-tag": {
+      "value": "{accent-primary colors.accent-primary-30}"
     }
   }
 }
