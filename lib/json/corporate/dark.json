@@ -120,7 +120,7 @@
   "icon-color-success": "#2d9f9f",
   "icon-color-warning": "#e0bd52",
   "surface-default": "#1a1a1a",
-  "surface-inverse": "#f2f2f2",
+  "surface-inverse": "#ffffff",
   "surface-assertive": "#ffffff",
   "surface-subtle": "#333333",
   "surface-error": "#e64d54",
