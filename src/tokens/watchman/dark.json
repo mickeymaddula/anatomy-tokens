@@ -95,6 +95,9 @@
     },
     "text-color-visited": {
       "value": "{accent-primary colors.accent-primary-30}"
+    },
+    "text-color-informational": {
+      "value": "{neutral colors.neutral-10}"
     }
   },
   "icons": {
@@ -176,9 +179,6 @@
     }
   },
   "components": {
-    "ribbon-text": {
-      "value": "{neutral colors.neutral-10}"
-    },
     "callout-bar-color": {
       "value": "{accent-primary colors.accent-primary-30}"
     },
