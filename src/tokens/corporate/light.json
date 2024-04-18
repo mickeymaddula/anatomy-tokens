@@ -189,10 +189,10 @@
       "value": "{accent-primary colors.accent-primary-30}"
     },
     "bsc-logo": {
-     "value": "{brand colors.bsc-logo-primary}"
-   },
-   "bsc-logo-tagline": {
-     "value": "{brand colors.bsc-logo-secondary}"
-   }
+      "value": "{brand colors.bsc-logo-primary}"
+    },
+    "bsc-logo-tagline": {
+      "value": "{brand colors.bsc-logo-secondary}"
+    }
   }
 }
