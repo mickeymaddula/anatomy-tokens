@@ -184,6 +184,15 @@
     },
     "accent-featured-tag": {
       "value": "{accent-primary colors.accent-primary-80}"
+    },
+    "bsc-logo": {
+      "value": "{neutral colors.neutral-100}"
+    },
+    "bsc-logo-tagline": {
+      "value": "{neutral colors.neutral-100}"
+    },
+    "surface-skiplink": {
+      "value": "{neutral colors.neutral-20}"
     }
   }
 }

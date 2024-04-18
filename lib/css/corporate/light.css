@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 16 Apr 2024 19:40:48 GMT
+ * Generated on Thu, 18 Apr 2024 16:46:36 GMT
  */
 
 :root {
@@ -51,6 +51,8 @@
   --neutral-20: #333333;
   --neutral-10: #1a1a1a;
   --neutral-00: #000000;
+  --bsc-logo-secondary: #6a737b;
+  --bsc-logo-primary: #00467f;
   --brand-primary: #003c71;
   --letter-spacing-increase: 0.075rem;
   --breakpoint-xxl-min: 87.5rem;
@@ -71,13 +73,16 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
+  --bsc-logo-tagline: var(--bsc-logo-secondary);
+  --bsc-logo: var(--bsc-logo-primary);
   --accent-featured-tag: var(--accent-primary-30);
-  --callout-bar: var(--accent-primary-60);
+  --callout-bar-color: var(--accent-primary-60);
   --ribbon-text: var(--neutral-00);
   --surface-warning-subtle: var(--feedback-warning-95);
   --surface-warning: var(--feedback-warning-95);
   --surface-success-subtle: var(--feedback-success-95);
   --surface-success: var(--feedback-success-95);
+  --surface-skiplink: var(--neutral-95);
   --surface-informational: var(--action-primary-97);
   --surface-error-assertive: var(--feedback-error-40);
   --surface-error-subtle: var(--feedback-error-95);

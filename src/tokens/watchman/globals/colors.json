@@ -3,6 +3,12 @@
     "type": "color",
     "brand-primary": {
       "value": "#e57200"
+    },
+    "bsc-logo-primary": {
+      "value": "#00467f"
+    },
+    "bsc-logo-secondary": {
+      "value": "#6a737b"
     }
   },
   "neutral colors": {

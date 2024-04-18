@@ -150,6 +150,9 @@
     "surface-informational": {
       "value": "{action-primary colors.action-primary-97}"
     },
+    "surface-skiplink": {
+      "value": "{neutral colors.neutral-95}"
+    },
     "surface-success": {
       "value": "{feedback-success colors.feedback-success-95}"
     },
@@ -184,6 +187,12 @@
     },
     "accent-featured-tag": {
       "value": "{accent-primary colors.accent-primary-30}"
+    },
+    "bsc-logo": {
+      "value": "{brand colors.bsc-logo-primary}"
+    },
+    "bsc-logo-tagline": {
+      "value": "{brand colors.bsc-logo-secondary}"
     }
   }
 }
