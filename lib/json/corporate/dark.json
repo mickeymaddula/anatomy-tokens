@@ -32,6 +32,8 @@
   "icon-decorative-subtle-inverse": "#333333",
   "letter-spacing-increase": "0.075rem",
   "brand-primary": "#003c71",
+  "bsc-logo-primary": "#00467f",
+  "bsc-logo-secondary": "#6a737b",
   "neutral-00": "#000000",
   "neutral-10": "#1a1a1a",
   "neutral-20": "#333333",
@@ -135,6 +137,9 @@
   "transparency-overlay-primary-inverse": "rgba(255, 255, 255, 0.6)",
   "transparency-zero": "rgba(255, 255, 255, 0)",
   "ribbon-text": "#1a1a1a",
-  "callout-bar": "#660099",
-  "accent-featured-tag": "#dd99ff"
+  "callout-bar-color": "#660099",
+  "accent-featured-tag": "#dd99ff",
+  "bsc-logo": "#ffffff",
+  "bsc-logo-tagline": "#ffffff",
+  "surface-skiplink": "#333333"
 }

@@ -32,6 +32,8 @@
   "icon-decorative-subtle-inverse": "#ffffff",
   "letter-spacing-increase": "0.075rem",
   "brand-primary": "#003c71",
+  "bsc-logo-primary": "#00467f",
+  "bsc-logo-secondary": "#6a737b",
   "neutral-00": "#000000",
   "neutral-10": "#1a1a1a",
   "neutral-20": "#333333",
@@ -127,6 +129,7 @@
   "surface-error-subtle": "#fce9ea",
   "surface-error-assertive": "#b31921",
   "surface-informational": "#f2f7ff",
+  "surface-skiplink": "#f2f2f2",
   "surface-success": "#ebf9f9",
   "surface-success-subtle": "#ebf9f9",
   "surface-warning": "#fbf7e9",
@@ -135,6 +138,8 @@
   "transparency-overlay-primary-inverse": "rgba(255, 255, 255, 0.6)",
   "transparency-zero": "rgba(255, 255, 255, 0)",
   "ribbon-text": "#000000",
-  "callout-bar": "#bb33ff",
-  "accent-featured-tag": "#660099"
+  "callout-bar-color": "#bb33ff",
+  "accent-featured-tag": "#660099",
+  "bsc-logo": "#00467f",
+  "bsc-logo-tagline": "#6a737b"
 }
