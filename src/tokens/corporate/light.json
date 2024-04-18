@@ -98,6 +98,9 @@
     },
     "text-color-informational": {
       "value": "{neutral colors.neutral-00}"
+    },
+    "text-color-informational-inverse": {
+      "value": "{neutral colors.neutral-100}"
     }
   },
   "icons": {
@@ -193,6 +196,9 @@
     },
     "bsc-logo-tagline": {
       "value": "{brand colors.bsc-logo-secondary}"
+    },
+    "gradient-decorative": {
+      "value": "{gradients.gradient-accent}"
     }
   }
 }

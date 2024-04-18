@@ -98,6 +98,9 @@
     },
     "text-color-informational": {
       "value": "{neutral colors.neutral-10}"
+    },
+    "text-color-informational-inverse": {
+      "value": "{neutral colors.neutral-100}"
     }
   },
   "icons": {
@@ -193,6 +196,9 @@
     },
     "surface-skiplink": {
       "value": "{neutral colors.neutral-20}"
+    },
+    "gradient-decorative": {
+      "value": "{gradients.gradient-accent}"
     }
   }
 }
