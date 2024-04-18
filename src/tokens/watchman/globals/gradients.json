@@ -10,10 +10,10 @@
       "value": "{accent-primary colors.accent-primary-60}"
     },
     "gradient-primary-stop-1": {
-      "value": "{accent-primary colors.accent-primary-30}"
+      "value": "{accent-primary colors.accent-primary-60}"
     },
     "gradient-primary-stop-2": {
-      "value": "{action-primary colors.action-primary-60}"
+      "value": "{accent-primary colors.accent-primary-30}"
     },
     "gradient-secondary-stop-1": {
       "value": "{accent-secondary colors.accent-secondary-40}"
