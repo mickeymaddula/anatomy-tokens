@@ -19,6 +19,6 @@ npm install @boston-scientific/anatomy-tokens
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@boston-scientific/anatomy-tokens@5.0.0-beta.13-beta.12-beta.11-beta.10/lib/css/corporate/light.css"
+  href="https://cdn.jsdelivr.net/npm/@boston-scientific/anatomy-tokens@5.0.0-beta.14-beta.13-beta.12-beta.11-beta.10/lib/css/corporate/light.css"
 />
 ```
