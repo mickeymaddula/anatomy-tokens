@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 18 Apr 2024 16:46:36 GMT
+ * Generated on Thu, 18 Apr 2024 18:34:10 GMT
  */
 
 :root {
@@ -77,7 +77,6 @@
   --bsc-logo: var(--bsc-logo-primary);
   --accent-featured-tag: var(--accent-primary-30);
   --callout-bar-color: var(--accent-primary-60);
-  --ribbon-text: var(--neutral-00);
   --surface-warning-subtle: var(--feedback-warning-95);
   --surface-warning: var(--feedback-warning-95);
   --surface-success-subtle: var(--feedback-success-95);
@@ -99,6 +98,7 @@
   --icon-color-subtle: var(--neutral-40);
   --icon-color-action: var(--action-primary-40);
   --icon-color-primary: var(--neutral-00);
+  --text-color-informational: var(--neutral-00);
   --text-color-visited: var(--accent-primary-30);
   --text-color-inverse: var(--neutral-100);
   --text-color-subtle: var(--neutral-40);
