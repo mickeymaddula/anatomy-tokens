@@ -179,7 +179,7 @@
     "ribbon-text": {
       "value": "{neutral colors.neutral-10}"
     },
-    "callout-bar": {
+    "callout-bar-color": {
       "value": "{accent-primary colors.accent-primary-30}"
     },
     "accent-featured-tag": {
