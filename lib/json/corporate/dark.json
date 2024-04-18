@@ -114,6 +114,7 @@
   "text-color-inverse": "#1a1a1a",
   "text-color-visited": "#dd99ff",
   "text-color-informational": "#1a1a1a",
+  "text-color-informational-inverse": "#ffffff",
   "icon-color-primary": "#f2f2f2",
   "icon-color-action": "#3485fe",
   "icon-color-subtle": "#999999",
@@ -141,5 +142,6 @@
   "accent-featured-tag": "#dd99ff",
   "bsc-logo": "#ffffff",
   "bsc-logo-tagline": "#ffffff",
-  "surface-skiplink": "#333333"
+  "surface-skiplink": "#333333",
+  "gradient-decorative": "linear-gradient(90deg, #3485fe, #bb33ff)"
 }
