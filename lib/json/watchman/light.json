@@ -1,6 +1,6 @@
 {
   "gradient-brand": "linear-gradient(90deg, #e57200, #ff8000, #ff9933)",
-  "gradient-primary": "linear-gradient(90deg, #e67300, #33f1ff)",
+  "gradient-primary": "linear-gradient(90deg, #ff9933, #e67300)",
   "gradient-secondary": "linear-gradient(90deg, #0153cc, #00becc)",
   "gradient-accent": "linear-gradient(90deg, #012965, #007780)",
   "gradient-assertive": "linear-gradient(36deg, #012965, #000000)",
@@ -78,8 +78,8 @@
   "gradient-brand-stop-1": "#e57200",
   "gradient-brand-stop-2": "#ff8000",
   "gradient-brand-stop-3": "#ff9933",
-  "gradient-primary-stop-1": "#e67300",
-  "gradient-primary-stop-2": "#33f1ff",
+  "gradient-primary-stop-1": "#ff9933",
+  "gradient-primary-stop-2": "#e67300",
   "gradient-secondary-stop-1": "#0153cc",
   "gradient-secondary-stop-2": "#00becc",
   "gradient-accent-stop-1": "#012965",
