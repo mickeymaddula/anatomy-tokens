@@ -194,11 +194,14 @@
     "bsc-logo-tagline": {
       "value": "{neutral colors.neutral-100}"
     },
-    "surface-skiplink": {
-      "value": "{neutral colors.neutral-20}"
-    },
     "gradient-decorative": {
       "value": "{gradients.gradient-accent}"
+    },
+    "gradient-tag": {
+      "value": "linear-gradient(180deg, {gradient colors.gradient-accent-stop-2}, {gradient colors.gradient-accent-stop-1})"
+    },
+    "text-color-button-inverse": {
+      "value": "{neutral colors.neutral-100}"
     }
   }
 }

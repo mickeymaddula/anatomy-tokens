@@ -142,6 +142,7 @@
   "accent-featured-tag": "#dd99ff",
   "bsc-logo": "#ffffff",
   "bsc-logo-tagline": "#ffffff",
-  "surface-skiplink": "#333333",
-  "gradient-decorative": "linear-gradient(90deg, #3485fe, #bb33ff)"
+  "gradient-decorative": "linear-gradient(90deg, #3485fe, #bb33ff)",
+  "gradient-tag": "linear-gradient(180deg, #bb33ff, #3485fe)",
+  "text-color-button-inverse": "#ffffff"
 }
