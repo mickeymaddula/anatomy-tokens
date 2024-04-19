@@ -131,7 +131,6 @@
   "surface-error-subtle": "#fce9ea",
   "surface-error-assertive": "#b31921",
   "surface-informational": "#f2f7ff",
-  "surface-skiplink": "#f2f2f2",
   "surface-success": "#ebf9f9",
   "surface-success-subtle": "#ebf9f9",
   "surface-warning": "#fbf7e9",
@@ -143,5 +142,7 @@
   "accent-featured-tag": "#660099",
   "bsc-logo": "#00467f",
   "bsc-logo-tagline": "#6a737b",
-  "gradient-decorative": "linear-gradient(90deg, #3485fe, #bb33ff)"
+  "gradient-decorative": "linear-gradient(90deg, #3485fe, #bb33ff)",
+  "gradient-tag": "linear-gradient(180deg, #bb33ff, #3485fe)",
+  "text-color-button-inverse": "#ffffff"
 }

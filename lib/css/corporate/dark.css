@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 18 Apr 2024 20:38:35 GMT
+ * Generated on Fri, 19 Apr 2024 16:57:13 GMT
  */
 
 :root {
@@ -73,7 +73,7 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
-  --surface-skiplink: var(--neutral-20);
+  --text-color-button-inverse: var(--neutral-100);
   --bsc-logo-tagline: var(--neutral-100);
   --bsc-logo: var(--neutral-100);
   --accent-featured-tag: var(--accent-primary-80);
@@ -142,6 +142,7 @@
   --border-width-sm: var(--space-sm);
   --border-width-xs: var(--space-xs);
   --border-width-xxs: var(--space-xxs);
+  --gradient-tag: linear-gradient(180deg, var(--gradient-accent-stop-2), var(--gradient-accent-stop-1));
   --gradient-subtle: linear-gradient(322deg, var(--gradient-subtle-stop-1), var(--gradient-subtle-stop-2));
   --gradient-assertive: linear-gradient(36deg, var(--gradient-assertive-stop-1), var(--gradient-assertive-stop-2));
   --gradient-accent: linear-gradient(90deg, var(--gradient-accent-stop-1), var(--gradient-accent-stop-2));

@@ -156,9 +156,6 @@
     "surface-informational": {
       "value": "{action-primary colors.action-primary-97}"
     },
-    "surface-skiplink": {
-      "value": "{neutral colors.neutral-95}"
-    },
     "surface-success": {
       "value": "{feedback-success colors.feedback-success-95}"
     },
@@ -199,6 +196,12 @@
     },
     "gradient-decorative": {
       "value": "{gradients.gradient-accent}"
+    },
+    "gradient-tag": {
+      "value": "linear-gradient(180deg, {gradient colors.gradient-accent-stop-2}, {gradient colors.gradient-accent-stop-1})"
+    },
+    "text-color-button-inverse": {
+      "value": "{neutral colors.neutral-100}"
     }
   }
 }

@@ -36,6 +36,7 @@
   "bsc-logo-secondary": "#6a737b",
   "neutral-00": "#000000",
   "neutral-10": "#2d3539",
+  "neutral-15": "#5a6b72",
   "neutral-20": "#61737b",
   "neutral-40": "#8d9ea5",
   "neutral-60": "#becad0",
@@ -142,6 +143,7 @@
   "accent-featured-tag": "#e67300",
   "bsc-logo": "#00467f",
   "bsc-logo-tagline": "#6a737b",
-  "surface-skiplink": "#f0f1f1",
-  "gradient-decorative": "linear-gradient(90deg, #ff9933, #e67300)"
+  "gradient-decorative": "linear-gradient(90deg, #ff9933, #e67300)",
+  "gradient-tag": "linear-gradient(180deg, #e67300, #ff9933)",
+  "text-color-button-inverse": "#ffffff"
 }

@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated on Thu, 18 Apr 2024 20:38:35 GMT
+// Generated on Fri, 19 Apr 2024 16:57:14 GMT
 
 $transparency-zero: rgba(255, 255, 255, 0);
 $transparency-overlay-primary-inverse: rgba(255, 255, 255, 0.6);
@@ -46,6 +46,7 @@ $neutral-80: #e1e3e5;
 $neutral-60: #becad0;
 $neutral-40: #8d9ea5;
 $neutral-20: #61737b;
+$neutral-15: #5a6b72;
 $neutral-10: #2d3539;
 $neutral-00: #000000;
 $bsc-logo-secondary: #6a737b;
@@ -70,7 +71,7 @@ $space-md: 0.5rem;
 $space-sm: 0.25rem;
 $space-xs: 0.125rem;
 $space-xxs: 0.063rem;
-$surface-skiplink: $neutral-10;
+$text-color-button-inverse: $neutral-10;
 $bsc-logo-tagline: $neutral-100;
 $bsc-logo: $neutral-100;
 $accent-featured-tag: $neutral-100;
@@ -83,7 +84,7 @@ $surface-informational: $action-primary-80;
 $surface-error-assertive: $feedback-error-60;
 $surface-error-subtle: $transparency-zero;
 $surface-error: $feedback-error-60;
-$surface-subtle: $neutral-20;
+$surface-subtle: $neutral-15;
 $surface-assertive: $neutral-100;
 $surface-inverse: $neutral-100;
 $surface-default: $neutral-10;
@@ -139,6 +140,7 @@ $border-radius-sm: $space-sm;
 $border-width-sm: $space-sm;
 $border-width-xs: $space-xs;
 $border-width-xxs: $space-xxs;
+$gradient-tag: linear-gradient(180deg, $gradient-primary-stop-2, $gradient-primary-stop-1);
 $gradient-subtle: linear-gradient(322deg, $gradient-subtle-stop-1, $gradient-subtle-stop-2);
 $gradient-assertive: linear-gradient(36deg, $gradient-assertive-stop-1, $gradient-assertive-stop-2);
 $gradient-accent: linear-gradient(90deg, $gradient-accent-stop-1, $gradient-accent-stop-2);
