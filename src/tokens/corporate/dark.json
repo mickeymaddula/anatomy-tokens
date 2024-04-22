@@ -183,7 +183,7 @@
   },
   "components": {
     "callout-bar-color": {
-      "value": "{accent-primary colors.accent-primary-30}"
+      "value": "{accent-primary colors.accent-primary-60}"
     },
     "accent-featured-tag": {
       "value": "{accent-primary colors.accent-primary-80}"
