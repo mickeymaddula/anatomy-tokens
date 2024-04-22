@@ -139,7 +139,7 @@
   "transparency-overlay-primary": "rgba(0, 0, 0, 0.6)",
   "transparency-overlay-primary-inverse": "rgba(255, 255, 255, 0.6)",
   "transparency-zero": "rgba(255, 255, 255, 0)",
-  "callout-bar-color": "#ff9933",
+  "callout-bar-color": "#e67300",
   "accent-featured-tag": "#e67300",
   "bsc-logo": "#00467f",
   "bsc-logo-tagline": "#6a737b",
