@@ -43,9 +43,6 @@
     "text-color-action": {
       "value": "{action-primary colors.action-primary-60}"
     },
-    "text-color-button": {
-      "value": "{neutral colors.neutral-100}"
-    },
     "text-color-error": {
       "value": "{feedback-error colors.feedback-error-60}"
     },
