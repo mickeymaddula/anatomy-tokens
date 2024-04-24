@@ -140,6 +140,9 @@
     },
     "button-active-surface": {
       "value": "{action-primary colors.action-primary-20}"
+    },
+    "checkradio-icon-disabled": {
+      "value": "{neutral colors.neutral-60}"
     }
   }
 }
