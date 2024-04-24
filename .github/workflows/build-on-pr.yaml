@@ -2,9 +2,9 @@ name: Build and Commit Assets
 
 on:
   pull_request:
-    # We can add main here too if we feel like we need to. 
+    # We can add main here too if we feel like we need to.
     # Presumably by the time we get to main assets would have been built and published.
-    branches: [develop] 
+    branches: [develop]
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.head_ref }}  # This dynamically checks out the PR's branch
+          ref: ${{ github.head_ref }} # This dynamically checks out the PR's branch
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
@@ -39,4 +39,3 @@ jobs:
           git push origin HEAD:${{ github.head_ref }}  # This pushes to the right branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
