@@ -39,6 +39,12 @@
     },
     "neutral-100": {
       "value": "#ffffff"
+    },
+    "neutral-00-a1": {
+      "value": "rgba(0, 0, 0, 0.1)"
+    },
+    "neutral-00-a2": {
+      "value": "rgba(0, 0, 0, 0.2)"
     }
   },
   "action-primary colors": {

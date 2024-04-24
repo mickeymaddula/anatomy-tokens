@@ -75,9 +75,9 @@ $font-path: '../../fonts' !default;
   --space-negative-xxs: calc(0rem - var(--space-xxs));
 
   // Box shadows
-  --box-shadow-primary: 0 0 var(--space-lg) 0 var(--box-shadow-primary-color);
-  --box-shadow-secondary: 0 var(--space-xs) var(--space-2x) 0 var(--box-shadow-secondary-color);
-  --box-shadow-tertiary: 0 var(--space-xs) 0.625rem 0 var(--box-shadow-tertiary-color);
+  --box-shadow-primary: 0 0 var(--space-lg) 0 var(--neutral-00-a2);
+  --box-shadow-secondary: 0 var(--space-xs) var(--space-2x) 0 var(--neutral-00-a1);
+  --box-shadow-tertiary: 0 var(--space-xs) 0.625rem 0 var(--neutral-00-a2);
 }
 
 @media (min-width: $breakpoint-lg-min) {

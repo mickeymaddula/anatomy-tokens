@@ -1,15 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Mon, 22 Apr 2024 14:53:39 GMT
+ * Generated on Wed, 24 Apr 2024 19:38:29 GMT
  */
 
 :root {
-  --transparency-zero: rgba(255, 255, 255, 0);
-  --transparency-overlay-primary-inverse: rgba(255, 255, 255, 0.6);
-  --transparency-overlay-primary: rgba(0, 0, 0, 0.6);
-  --box-shadow-tertiary-color: rgba(0, 0, 0, 1);
-  --box-shadow-secondary-color: rgba(0, 0, 0, 1);
-  --box-shadow-primary-color: rgba(0, 0, 0, 1);
+  --surface-translucent: rgba(0, 0, 0, 0.6);
+  --surface-warning-subtle: transparent;
+  --surface-success-subtle: transparent;
+  --surface-error-subtle: transparent;
   --feedback-warning-95: #fff5e6;
   --feedback-warning-80: #ffd699;
   --feedback-warning-60: #ffa825;
@@ -43,6 +41,8 @@
   --action-primary-40: #00becc;
   --action-primary-20: #007780;
   --action-primary-10: #00474d;
+  --neutral-00-a2: rgba(0, 0, 0, 0.2);
+  --neutral-00-a1: rgba(0, 0, 0, 0.1);
   --neutral-100: #ffffff;
   --neutral-95: #f0f1f1;
   --neutral-80: #e1e3e5;
@@ -74,19 +74,14 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
-  --text-color-button-inverse: var(--neutral-10);
-  --bsc-logo-tagline: var(--neutral-100);
-  --bsc-logo: var(--neutral-100);
-  --accent-featured-tag: var(--neutral-100);
+  --button-active-surface: var(--action-primary-60);
+  --button-hover-surface: var(--action-primary-60);
+  --button-text-color-inverse: var(--neutral-10);
+  --tag-featured-surface: var(--neutral-100);
   --callout-bar-color: var(--accent-primary-30);
-  --surface-warning-subtle: var(--transparency-zero);
-  --surface-warning: var(--feedback-warning-60);
-  --surface-success-subtle: var(--transparency-zero);
-  --surface-success: var(--feedback-success-80);
+  --surface-action: var(--action-primary-40);
   --surface-informational: var(--action-primary-80);
   --surface-error-assertive: var(--feedback-error-60);
-  --surface-error-subtle: var(--transparency-zero);
-  --surface-error: var(--feedback-error-60);
   --surface-subtle: var(--neutral-15);
   --surface-assertive: var(--neutral-100);
   --surface-inverse: var(--neutral-100);
@@ -94,17 +89,12 @@
   --icon-color-warning: var(--feedback-warning-60);
   --icon-color-success: var(--feedback-success-60);
   --icon-color-error: var(--feedback-error-60);
-  --icon-color-inverse: var(--neutral-00);
-  --icon-color-disabled: var(--neutral-40);
-  --icon-color-subtle: var(--neutral-40);
-  --icon-color-action: var(--action-primary-95);
-  --icon-color-primary: var(--neutral-100);
-  --text-color-informational-inverse: var(--neutral-100);
+  --image-caption-text-color-inverse: var(--neutral-100);
   --text-color-informational: var(--neutral-10);
   --text-color-visited: var(--accent-primary-30);
   --text-color-inverse: var(--neutral-00);
   --text-color-subtle: var(--neutral-40);
-  --text-color-primary: var(--neutral-95);
+  --text-color-default: var(--neutral-95);
   --text-color-disabled: var(--neutral-60);
   --text-color-error: var(--feedback-error-60);
   --text-color-button: var(--neutral-100);
@@ -112,7 +102,7 @@
   --focus-color-readonly: var(--neutral-80);
   --focus-color-error: var(--feedback-error-60);
   --focus-color-inverse: var(--neutral-00);
-  --focus-color-primary: var(--neutral-100);
+  --focus-color-default: var(--neutral-100);
   --border-color-warning: var(--feedback-warning-60);
   --border-color-success: var(--feedback-success-60);
   --border-color-error: var(--feedback-error-60);
@@ -120,9 +110,6 @@
   --border-color-subtle: var(--neutral-60);
   --border-color-assertive: var(--neutral-100);
   --border-color-action: var(--action-primary-95);
-  --action-active: var(--action-primary-60);
-  --action-hover: var(--action-primary-60);
-  --action-default: var(--action-primary-40);
   --gradient-subtle-stop-2: var(--neutral-95);
   --gradient-subtle-stop-1: var(--neutral-100);
   --gradient-assertive-stop-2: var(--neutral-00);
@@ -136,14 +123,13 @@
   --gradient-brand-stop-3: var(--accent-primary-60);
   --gradient-brand-stop-2: var(--accent-primary-40);
   --gradient-brand-stop-1: var(--brand-primary);
-  --icon-decorative-subtle-inverse: var(--neutral-100);
-  --icon-decorative-subtle: var(--brand-primary);
   --size-icon-decorative: var(--space-8x);
   --border-radius-sm: var(--space-sm);
   --border-width-sm: var(--space-sm);
   --border-width-xs: var(--space-xs);
   --border-width-xxs: var(--space-xxs);
-  --gradient-tag: linear-gradient(180deg, var(--gradient-primary-stop-2), var(--gradient-primary-stop-1));
+  --tab-bar-hover-color: var(--surface-action);
+  --tag-accent-bar-color: linear-gradient(180deg, var(--gradient-primary-stop-2), var(--gradient-primary-stop-1));
   --gradient-subtle: linear-gradient(322deg, var(--gradient-subtle-stop-1), var(--gradient-subtle-stop-2));
   --gradient-assertive: linear-gradient(36deg, var(--gradient-assertive-stop-1), var(--gradient-assertive-stop-2));
   --gradient-accent: linear-gradient(90deg, var(--gradient-accent-stop-1), var(--gradient-accent-stop-2));

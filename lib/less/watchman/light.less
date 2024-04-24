@@ -1,12 +1,7 @@
 // Do not edit directly
-// Generated on Mon, 22 Apr 2024 14:53:39 GMT
+// Generated on Wed, 24 Apr 2024 19:38:29 GMT
 
-@transparency-zero: rgba(255, 255, 255, 0);
-@transparency-overlay-primary-inverse: rgba(255, 255, 255, 0.6);
-@transparency-overlay-primary: rgba(0, 0, 0, 0.6);
-@box-shadow-tertiary-color: rgba(0, 0, 0, 0.2);
-@box-shadow-secondary-color: rgba(0, 0, 0, 0.1);
-@box-shadow-primary-color: rgba(0, 0, 0, 0.2);
+@surface-translucent: rgba(0, 0, 0, 0.6);
 @feedback-warning-95: #fff5e6;
 @feedback-warning-80: #ffd699;
 @feedback-warning-60: #ffa825;
@@ -40,6 +35,8 @@
 @action-primary-40: #00becc;
 @action-primary-20: #007780;
 @action-primary-10: #00474d;
+@neutral-00-a2: rgba(0, 0, 0, 0.2);
+@neutral-00-a1: rgba(0, 0, 0, 0.1);
 @neutral-100: #ffffff;
 @neutral-95: #f0f1f1;
 @neutral-80: #e1e3e5;
@@ -71,19 +68,17 @@
 @space-sm: 0.25rem;
 @space-xs: 0.125rem;
 @space-xxs: 0.063rem;
-@text-color-button-inverse: @neutral-100;
-@bsc-logo-tagline: @bsc-logo-secondary;
-@bsc-logo: @bsc-logo-primary;
-@accent-featured-tag: @accent-primary-30;
+@button-active-surface: @action-primary-10;
+@button-hover-surface: @action-primary-10;
+@button-text-color-inverse: @neutral-100;
+@tag-featured-surface: @accent-primary-30;
 @callout-bar-color: @accent-primary-30;
+@surface-action: @action-primary-20;
 @surface-warning-subtle: @feedback-warning-95;
-@surface-warning: @feedback-warning-95;
 @surface-success-subtle: @feedback-success-95;
-@surface-success: @feedback-success-95;
 @surface-informational: @action-primary-97;
 @surface-error-assertive: @feedback-error-40;
 @surface-error-subtle: @feedback-error-95;
-@surface-error: @feedback-error-95;
 @surface-subtle: @neutral-95;
 @surface-assertive: @action-primary-20;
 @surface-inverse: @neutral-00;
@@ -91,17 +86,12 @@
 @icon-color-warning: @feedback-warning-40;
 @icon-color-success: @feedback-success-40;
 @icon-color-error: @feedback-error-40;
-@icon-color-inverse: @neutral-100;
-@icon-color-disabled: @neutral-20;
-@icon-color-subtle: @neutral-20;
-@icon-color-action: @action-primary-20;
-@icon-color-primary: @neutral-00;
-@text-color-informational-inverse: @neutral-100;
+@image-caption-text-color-inverse: @neutral-100;
 @text-color-informational: @neutral-00;
 @text-color-visited: @accent-primary-20;
 @text-color-inverse: @neutral-100;
 @text-color-subtle: @neutral-20;
-@text-color-primary: @neutral-00;
+@text-color-default: @neutral-00;
 @text-color-disabled: @neutral-20;
 @text-color-error: @feedback-error-40;
 @text-color-button: @action-primary-20;
@@ -109,7 +99,7 @@
 @focus-color-readonly: @neutral-60;
 @focus-color-error: @feedback-error-40;
 @focus-color-inverse: @neutral-100;
-@focus-color-primary: @action-primary-20;
+@focus-color-default: @action-primary-20;
 @border-color-warning: @feedback-warning-60;
 @border-color-success: @feedback-success-40;
 @border-color-error: @feedback-error-40;
@@ -117,9 +107,6 @@
 @border-color-subtle: @neutral-80;
 @border-color-assertive: @neutral-00;
 @border-color-action: @action-primary-20;
-@action-active: @action-primary-10;
-@action-hover: @action-primary-10;
-@action-default: @action-primary-20;
 @gradient-subtle-stop-2: @neutral-95;
 @gradient-subtle-stop-1: @neutral-100;
 @gradient-assertive-stop-2: @neutral-00;
@@ -133,14 +120,13 @@
 @gradient-brand-stop-3: @accent-primary-60;
 @gradient-brand-stop-2: @accent-primary-40;
 @gradient-brand-stop-1: @brand-primary;
-@icon-decorative-subtle-inverse: @neutral-100;
-@icon-decorative-subtle: @brand-primary;
 @size-icon-decorative: @space-8x;
 @border-radius-sm: @space-sm;
 @border-width-sm: @space-sm;
 @border-width-xs: @space-xs;
 @border-width-xxs: @space-xxs;
-@gradient-tag: linear-gradient(180deg, @gradient-primary-stop-2, @gradient-primary-stop-1);
+@tab-bar-hover-color: @surface-action;
+@tag-accent-bar-color: linear-gradient(180deg, @gradient-primary-stop-2, @gradient-primary-stop-1);
 @gradient-subtle: linear-gradient(322deg, @gradient-subtle-stop-1, @gradient-subtle-stop-2);
 @gradient-assertive: linear-gradient(36deg, @gradient-assertive-stop-1, @gradient-assertive-stop-2);
 @gradient-accent: linear-gradient(90deg, @gradient-accent-stop-1, @gradient-accent-stop-2);
