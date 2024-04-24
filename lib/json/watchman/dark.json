@@ -101,7 +101,6 @@
   "focus-color-error": "#e64d54",
   "focus-color-readonly": "#e1e3e5",
   "text-color-action": "#e6fdff",
-  "text-color-button": "#ffffff",
   "text-color-error": "#e64d54",
   "text-color-disabled": "#becad0",
   "text-color-default": "#f0f1f1",
@@ -131,5 +130,6 @@
   "button-text-color-inverse": "#2d3539",
   "tab-bar-hover-color": "#00becc",
   "button-hover-surface": "#33f1ff",
-  "button-active-surface": "#33f1ff"
+  "button-active-surface": "#33f1ff",
+  "checkradio-icon-disabled": "#8d9ea5"
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Apr 2024 19:38:29 GMT
+ * Generated on Wed, 24 Apr 2024 21:05:54 GMT
  */
 
 :root {
@@ -71,6 +71,7 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
+  --checkradio-icon-disabled: var(--neutral-20);
   --button-active-surface: var(--action-primary-10);
   --button-hover-surface: var(--action-primary-10);
   --button-text-color-inverse: var(--neutral-100);
@@ -97,7 +98,6 @@
   --text-color-default: var(--neutral-00);
   --text-color-disabled: var(--neutral-20);
   --text-color-error: var(--feedback-error-40);
-  --text-color-button: var(--action-primary-20);
   --text-color-action: var(--action-primary-20);
   --focus-color-readonly: var(--neutral-60);
   --focus-color-error: var(--feedback-error-40);
