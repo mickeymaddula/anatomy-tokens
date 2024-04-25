@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated on Wed, 24 Apr 2024 21:05:54 GMT
+// Generated on Thu, 25 Apr 2024 14:43:05 GMT
 
 $surface-translucent: rgba(0, 0, 0, 0.6);
 $surface-warning-subtle: transparent;
@@ -71,9 +71,9 @@ $space-md: 0.5rem;
 $space-sm: 0.25rem;
 $space-xs: 0.125rem;
 $space-xxs: 0.063rem;
-$checkradio-icon-disabled: $neutral-40;
-$button-active-surface: $action-primary-60;
-$button-hover-surface: $action-primary-60;
+$checkradio-icon-color-disabled: $neutral-40;
+$button-surface-active: $action-primary-60;
+$button-surface-hover: $action-primary-60;
 $button-text-color-inverse: $neutral-10;
 $tag-featured-surface: $neutral-100;
 $callout-bar-color: $accent-primary-30;
@@ -125,7 +125,7 @@ $border-radius-sm: $space-sm;
 $border-width-sm: $space-sm;
 $border-width-xs: $space-xs;
 $border-width-xxs: $space-xxs;
-$tab-bar-hover-color: $surface-action;
+$tab-bar-color-hover: $surface-action;
 $tag-accent-bar-color: linear-gradient(180deg, $gradient-primary-stop-2, $gradient-primary-stop-1);
 $gradient-subtle: linear-gradient(322deg, $gradient-subtle-stop-1, $gradient-subtle-stop-2);
 $gradient-assertive: linear-gradient(36deg, $gradient-assertive-stop-1, $gradient-assertive-stop-2);

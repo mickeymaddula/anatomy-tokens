@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Apr 2024 21:05:54 GMT
+ * Generated on Thu, 25 Apr 2024 14:43:05 GMT
  */
 
 :root {
@@ -70,9 +70,9 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
-  --checkradio-icon-disabled: var(--neutral-60);
-  --button-active-surface: var(--action-primary-20);
-  --button-hover-surface: var(--action-primary-20);
+  --checkradio-icon-color-disabled: var(--neutral-60);
+  --button-surface-active: var(--action-primary-20);
+  --button-surface-hover: var(--action-primary-20);
   --button-text-color-inverse: var(--neutral-100);
   --tag-featured-surface: var(--accent-primary-30);
   --callout-bar-color: var(--accent-primary-60);
@@ -127,7 +127,7 @@
   --border-width-sm: var(--space-sm);
   --border-width-xs: var(--space-xs);
   --border-width-xxs: var(--space-xxs);
-  --tab-bar-hover-color: var(--surface-action);
+  --tab-bar-color-hover: var(--surface-action);
   --tag-accent-bar-color: linear-gradient(180deg, var(--gradient-accent-stop-2), var(--gradient-accent-stop-1));
   --gradient-subtle: linear-gradient(322deg, var(--gradient-subtle-stop-1), var(--gradient-subtle-stop-2));
   --gradient-assertive: linear-gradient(36deg, var(--gradient-assertive-stop-1), var(--gradient-assertive-stop-2));

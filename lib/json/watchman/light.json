@@ -128,8 +128,8 @@
   "gradient-decorative": "linear-gradient(90deg, #ff9933, #e67300)",
   "tag-accent-bar-color": "linear-gradient(180deg, #e67300, #ff9933)",
   "button-text-color-inverse": "#ffffff",
-  "tab-bar-hover-color": "#007780",
-  "button-hover-surface": "#00474d",
-  "button-active-surface": "#00474d",
-  "checkradio-icon-disabled": "#61737b"
+  "tab-bar-color-hover": "#007780",
+  "button-surface-hover": "#00474d",
+  "button-surface-active": "#00474d",
+  "checkradio-icon-color-disabled": "#61737b"
 }
