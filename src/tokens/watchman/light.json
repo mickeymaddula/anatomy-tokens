@@ -1,16 +1,4 @@
 {
-  "action": {
-    "type": "color",
-    "action-default": {
-      "value": "{action-primary colors.action-primary-20}"
-    },
-    "action-hover": {
-      "value": "{action-primary colors.action-primary-10}"
-    },
-    "action-active": {
-      "value": "{action-primary colors.action-primary-10}"
-    }
-  },
   "borders": {
     "type": "color",
     "border-color-action": {
@@ -35,29 +23,9 @@
       "value": "{feedback-warning colors.feedback-warning-60}"
     }
   },
-  "shadows": {
-    "box-shadow-primary-color": {
-      "value": "rgba(0, 0, 0, 0.2)"
-    },
-    "box-shadow-secondary-color": {
-      "value": "rgba(0, 0, 0, 0.1)"
-    },
-    "box-shadow-tertiary-color": {
-      "value": "rgba(0, 0, 0, 0.2)"
-    }
-  },
-  "decorative icons": {
-    "type": "color",
-    "icon-decorative-subtle": {
-      "value": "{brand colors.brand-primary}"
-    },
-    "icon-decorative-subtle-inverse": {
-      "value": "{neutral colors.neutral-100}"
-    }
-  },
   "focus": {
     "type": "color",
-    "focus-color-primary": {
+    "focus-color-default": {
       "value": "{action-primary colors.action-primary-20}"
     },
     "focus-color-inverse": {
@@ -75,16 +43,13 @@
     "text-color-action": {
       "value": "{action-primary colors.action-primary-20}"
     },
-    "text-color-button": {
-      "value": "{action-primary colors.action-primary-20}"
-    },
     "text-color-error": {
       "value": "{feedback-error colors.feedback-error-40}"
     },
     "text-color-disabled": {
       "value": "{neutral colors.neutral-20}"
     },
-    "text-color-primary": {
+    "text-color-default": {
       "value": "{neutral colors.neutral-00}"
     },
     "text-color-subtle": {
@@ -99,27 +64,12 @@
     "text-color-informational": {
       "value": "{neutral colors.neutral-00}"
     },
-    "text-color-informational-inverse": {
+    "image-caption-text-color-inverse": {
       "value": "{neutral colors.neutral-100}"
     }
   },
   "icons": {
     "type": "color",
-    "icon-color-primary": {
-      "value": "{neutral colors.neutral-00}"
-    },
-    "icon-color-action": {
-      "value": "{action-primary colors.action-primary-20}"
-    },
-    "icon-color-subtle": {
-      "value": "{neutral colors.neutral-20}"
-    },
-    "icon-color-disabled": {
-      "value": "{neutral colors.neutral-20}"
-    },
-    "icon-color-inverse": {
-      "value": "{neutral colors.neutral-100}"
-    },
     "icon-color-error": {
       "value": "{feedback-error colors.feedback-error-40}"
     },
@@ -144,9 +94,6 @@
     "surface-subtle": {
       "value": "{neutral colors.neutral-95}"
     },
-    "surface-error": {
-      "value": "{feedback-error colors.feedback-error-95}"
-    },
     "surface-error-subtle": {
       "value": "{feedback-error colors.feedback-error-95}"
     },
@@ -156,52 +103,46 @@
     "surface-informational": {
       "value": "{action-primary colors.action-primary-97}"
     },
-    "surface-success": {
-      "value": "{feedback-success colors.feedback-success-95}"
-    },
     "surface-success-subtle": {
       "value": "{feedback-success colors.feedback-success-95}"
     },
-    "surface-warning": {
-      "value": "{feedback-warning colors.feedback-warning-95}"
-    },
     "surface-warning-subtle": {
       "value": "{feedback-warning colors.feedback-warning-95}"
-    }
-  },
-  "transparencies": {
-    "type": "color",
-    "transparency-overlay-primary": {
+    },
+    "surface-action": {
+      "value": "{action-primary colors.action-primary-20}"
+    },
+    "surface-translucent": {
       "value": "rgba(0, 0, 0, 0.6)"
-    },
-    "transparency-overlay-primary-inverse": {
-      "value": "rgba(255, 255, 255, 0.6)"
-    },
-    "transparency-zero": {
-      "value": "rgba(255, 255, 255, 0)"
     }
   },
   "components": {
     "callout-bar-color": {
       "value": "{accent-primary colors.accent-primary-30}"
     },
-    "accent-featured-tag": {
+    "tag-featured-surface": {
       "value": "{accent-primary colors.accent-primary-30}"
-    },
-    "bsc-logo": {
-      "value": "{brand colors.bsc-logo-primary}"
-    },
-    "bsc-logo-tagline": {
-      "value": "{brand colors.bsc-logo-secondary}"
     },
     "gradient-decorative": {
       "value": "{gradients.gradient-primary}"
     },
-    "gradient-tag": {
+    "tag-accent-bar-color": {
       "value": "linear-gradient(180deg, {gradient colors.gradient-primary-stop-2}, {gradient colors.gradient-primary-stop-1})"
     },
-    "text-color-button-inverse": {
+    "button-text-color-inverse": {
       "value": "{neutral colors.neutral-100}"
+    },
+    "tab-bar-color-hover": {
+      "value": "{surfaces.surface-action}"
+    },
+    "button-surface-hover": {
+      "value": "{action-primary colors.action-primary-10}"
+    },
+    "button-surface-active": {
+      "value": "{action-primary colors.action-primary-10}"
+    },
+    "checkradio-icon-color-disabled": {
+      "value": "{neutral colors.neutral-20}"
     }
   }
 }

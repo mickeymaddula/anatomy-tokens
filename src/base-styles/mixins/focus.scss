@@ -1,13 +1,13 @@
 // Use for most interactive elements on a light background
 @mixin focus-default {
   box-shadow: none;
-  outline: var(--space-xs) solid var(--focus-color-primary);
+  outline: var(--space-xs) solid var(--focus-color-default);
   outline-offset: var(--space-xs);
 }
 
 // Use for interactive elements on a light background that are contained in wrappers that would conceal the default focus indicator
 @mixin focus-default-inset {
-  box-shadow: inset 0 0 0 var(--space-xs) var(--focus-color-primary);
+  box-shadow: inset 0 0 0 var(--space-xs) var(--focus-color-default);
   outline: 0;
 }
 

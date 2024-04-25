@@ -1,16 +1,4 @@
 {
-  "action": {
-    "type": "color",
-    "action-default": {
-      "value": "{action-primary colors.action-primary-40}"
-    },
-    "action-hover": {
-      "value": "{action-primary colors.action-primary-60}"
-    },
-    "action-active": {
-      "value": "{action-primary colors.action-primary-60}"
-    }
-  },
   "borders": {
     "type": "color",
     "border-color-action": {
@@ -35,29 +23,9 @@
       "value": "{feedback-warning colors.feedback-warning-60}"
     }
   },
-  "shadows": {
-    "box-shadow-primary-color": {
-      "value": "rgba(0, 0, 0, 1)"
-    },
-    "box-shadow-secondary-color": {
-      "value": "rgba(0, 0, 0, 1)"
-    },
-    "box-shadow-tertiary-color": {
-      "value": "rgba(0, 0, 0, 1)"
-    }
-  },
-  "decorative icons": {
-    "type": "color",
-    "icon-decorative-subtle": {
-      "value": "{brand colors.brand-primary}"
-    },
-    "icon-decorative-subtle-inverse": {
-      "value": "{neutral colors.neutral-100}"
-    }
-  },
   "focus": {
     "type": "color",
-    "focus-color-primary": {
+    "focus-color-default": {
       "value": "{neutral colors.neutral-100}"
     },
     "focus-color-inverse": {
@@ -75,16 +43,13 @@
     "text-color-action": {
       "value": "{action-primary colors.action-primary-95}"
     },
-    "text-color-button": {
-      "value": "{neutral colors.neutral-100}"
-    },
     "text-color-error": {
       "value": "{feedback-error colors.feedback-error-60}"
     },
     "text-color-disabled": {
       "value": "{neutral colors.neutral-60}"
     },
-    "text-color-primary": {
+    "text-color-default": {
       "value": "{neutral colors.neutral-95}"
     },
     "text-color-subtle": {
@@ -99,27 +64,12 @@
     "text-color-informational": {
       "value": "{neutral colors.neutral-10}"
     },
-    "text-color-informational-inverse": {
+    "image-caption-text-color-inverse": {
       "value": "{neutral colors.neutral-100}"
     }
   },
   "icons": {
     "type": "color",
-    "icon-color-primary": {
-      "value": "{neutral colors.neutral-100}"
-    },
-    "icon-color-action": {
-      "value": "{action-primary colors.action-primary-95}"
-    },
-    "icon-color-subtle": {
-      "value": "{neutral colors.neutral-40}"
-    },
-    "icon-color-disabled": {
-      "value": "{neutral colors.neutral-40}"
-    },
-    "icon-color-inverse": {
-      "value": "{neutral colors.neutral-00}"
-    },
     "icon-color-error": {
       "value": "{feedback-error colors.feedback-error-60}"
     },
@@ -144,11 +94,8 @@
     "surface-subtle": {
       "value": "{neutral colors.neutral-15}"
     },
-    "surface-error": {
-      "value": "{feedback-error colors.feedback-error-60}"
-    },
     "surface-error-subtle": {
-      "value": "{transparencies.transparency-zero}"
+      "value": "transparent"
     },
     "surface-error-assertive": {
       "value": "{feedback-error colors.feedback-error-60}"
@@ -156,52 +103,46 @@
     "surface-informational": {
       "value": "{action-primary colors.action-primary-80}"
     },
-    "surface-success": {
-      "value": "{feedback-success colors.feedback-success-80}"
-    },
     "surface-success-subtle": {
-      "value": "{transparencies.transparency-zero}"
-    },
-    "surface-warning": {
-      "value": "{feedback-warning colors.feedback-warning-60}"
+      "value": "transparent"
     },
     "surface-warning-subtle": {
-      "value": "{transparencies.transparency-zero}"
-    }
-  },
-  "transparencies": {
-    "type": "color",
-    "transparency-overlay-primary": {
+      "value": "transparent"
+    },
+    "surface-action": {
+      "value": "{action-primary colors.action-primary-40}"
+    },
+    "surface-translucent": {
       "value": "rgba(0, 0, 0, 0.6)"
-    },
-    "transparency-overlay-primary-inverse": {
-      "value": "rgba(255, 255, 255, 0.6)"
-    },
-    "transparency-zero": {
-      "value": "rgba(255, 255, 255, 0)"
     }
   },
   "components": {
     "callout-bar-color": {
       "value": "{accent-primary colors.accent-primary-30}"
     },
-    "accent-featured-tag": {
-      "value": "{neutral colors.neutral-100}"
-    },
-    "bsc-logo": {
-      "value": "{neutral colors.neutral-100}"
-    },
-    "bsc-logo-tagline": {
+    "tag-featured-surface": {
       "value": "{neutral colors.neutral-100}"
     },
     "gradient-decorative": {
       "value": "{gradients.gradient-primary}"
     },
-    "gradient-tag": {
+    "tag-accent-bar-color": {
       "value": "linear-gradient(180deg, {gradient colors.gradient-primary-stop-2}, {gradient colors.gradient-primary-stop-1})"
     },
-    "text-color-button-inverse": {
+    "button-text-color-inverse": {
       "value": "{neutral colors.neutral-10}"
+    },
+    "tab-bar-color-hover": {
+      "value": "{surfaces.surface-action}"
+    },
+    "button-surface-hover": {
+      "value": "{action-primary colors.action-primary-60}"
+    },
+    "button-surface-active": {
+      "value": "{action-primary colors.action-primary-60}"
+    },
+    "checkradio-icon-color-disabled": {
+      "value": "{neutral colors.neutral-40}"
     }
   }
 }
