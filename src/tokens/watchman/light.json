@@ -132,16 +132,16 @@
     "button-text-color-inverse": {
       "value": "{neutral colors.neutral-100}"
     },
-    "tab-bar-hover-color": {
+    "tab-bar-color-hover": {
       "value": "{surfaces.surface-action}"
     },
-    "button-hover-surface": {
+    "button-surface-hover": {
       "value": "{action-primary colors.action-primary-10}"
     },
-    "button-active-surface": {
+    "button-surface-active": {
       "value": "{action-primary colors.action-primary-10}"
     },
-    "checkradio-icon-disabled": {
+    "checkradio-icon-color-disabled": {
       "value": "{neutral colors.neutral-20}"
     }
   }
