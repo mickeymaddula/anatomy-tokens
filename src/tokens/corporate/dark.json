@@ -141,10 +141,10 @@
     "checkradio-icon-color-disabled": {
       "value": "{neutral colors.neutral-40}"
     },
-    "bsc-logo-primary": {
+    "bsc-logo-color-primary": {
       "value": "{neutral colors.neutral-100}"
     },
-    "bsc-logo-secondary": {
+    "bsc-logo-color-secondary": {
       "value": "{neutral colors.neutral-100}"
     }
   }
