@@ -30,8 +30,8 @@
   "size-icon-decorative": "4rem",
   "letter-spacing-increase": "0.075rem",
   "brand-primary": "#003c71",
-  "bsc-logo-primary": "#00467f",
-  "bsc-logo-secondary": "#6a737b",
+  "bsc-logo-color-primary": "#00467f",
+  "bsc-logo-color-secondary": "#6a737b",
   "neutral-00": "#000000",
   "neutral-10": "#1a1a1a",
   "neutral-20": "#333333",
@@ -127,8 +127,9 @@
   "gradient-decorative": "linear-gradient(90deg, #3485fe, #bb33ff)",
   "tag-accent-bar-color": "linear-gradient(180deg, #bb33ff, #3485fe)",
   "button-text-color-inverse": "#ffffff",
-  "tab-bar-color-hover": "#0153cc",
   "button-surface-hover": "#012965",
   "button-surface-active": "#012965",
-  "checkradio-icon-color-disabled": "#999999"
+  "checkradio-icon-color-disabled": "#999999",
+  "bsc-logo-primary": "#00467f",
+  "bsc-logo-secondary": "#6a737b"
 }
