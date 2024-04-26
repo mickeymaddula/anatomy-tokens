@@ -30,8 +30,8 @@
   "size-icon-decorative": "4rem",
   "letter-spacing-increase": "0.075rem",
   "brand-primary": "#003c71",
-  "bsc-logo-color-primary": "#00467f",
-  "bsc-logo-color-secondary": "#6a737b",
+  "bsc-logo-primary": "#00467f",
+  "bsc-logo-secondary": "#6a737b",
   "neutral-00": "#000000",
   "neutral-10": "#1a1a1a",
   "neutral-20": "#333333",
@@ -130,6 +130,6 @@
   "button-surface-hover": "#0153cc",
   "button-surface-active": "#0153cc",
   "checkradio-icon-color-disabled": "#666666",
-  "bsc-logo-primary": "#ffffff",
-  "bsc-logo-secondary": "#ffffff"
+  "bsc-logo-color-primary": "#ffffff",
+  "bsc-logo-color-secondary": "#ffffff"
 }
