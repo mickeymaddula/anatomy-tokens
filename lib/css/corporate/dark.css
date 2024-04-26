@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 25 Apr 2024 14:43:05 GMT
+ * Generated on Fri, 26 Apr 2024 19:26:59 GMT
  */
 
 :root {
@@ -73,6 +73,8 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
+  --bsc-logo-color-secondary: var(--neutral-100);
+  --bsc-logo-color-primary: var(--neutral-100);
   --checkradio-icon-color-disabled: var(--neutral-40);
   --button-surface-active: var(--action-primary-40);
   --button-surface-hover: var(--action-primary-40);
@@ -127,7 +129,6 @@
   --border-width-sm: var(--space-sm);
   --border-width-xs: var(--space-xs);
   --border-width-xxs: var(--space-xxs);
-  --tab-bar-color-hover: var(--surface-action);
   --tag-accent-bar-color: linear-gradient(180deg, var(--gradient-accent-stop-2), var(--gradient-accent-stop-1));
   --gradient-subtle: linear-gradient(322deg, var(--gradient-subtle-stop-1), var(--gradient-subtle-stop-2));
   --gradient-assertive: linear-gradient(36deg, var(--gradient-assertive-stop-1), var(--gradient-assertive-stop-2));

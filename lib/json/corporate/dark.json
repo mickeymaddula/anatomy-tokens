@@ -127,8 +127,9 @@
   "gradient-decorative": "linear-gradient(90deg, #3485fe, #bb33ff)",
   "tag-accent-bar-color": "linear-gradient(180deg, #bb33ff, #3485fe)",
   "button-text-color-inverse": "#ffffff",
-  "tab-bar-color-hover": "#3485fe",
   "button-surface-hover": "#0153cc",
   "button-surface-active": "#0153cc",
-  "checkradio-icon-color-disabled": "#666666"
+  "checkradio-icon-color-disabled": "#666666",
+  "bsc-logo-color-primary": "#ffffff",
+  "bsc-logo-color-secondary": "#ffffff"
 }
