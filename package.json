@@ -38,6 +38,7 @@
     "cssnano": "^6.0.1",
     "eslint": "^8.53.0",
     "husky": "^8.0.3",
+    "lint-staged": "^15.2.2",
     "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0",
     "postcss-combine-duplicated-selectors": "^10.0.3",
