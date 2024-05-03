@@ -1,12 +1,12 @@
 # Contributing
 
-## Table of Contents
+## Table of contents
 
 - [Development](#development)
-  - [Creating Tokens](#creating-tokens)
+  - [Creating tokens](#creating-tokens)
   - [Publishing package](#publishing-package)
     - [Beta releases](#beta-releases)
-- [Token Naming Conventions](#token-naming-conventions)
+- [Token naming conventions](#token-naming-conventions)
 - [Scripts](#scripts)
 
 ## Development
@@ -53,14 +53,14 @@ _Reference [Development](https://github.com/bos-sci/anatomy-docs/blob/develop/CO
 
 \* _The repository secret `NPM_TOKEN` is an auth token that allows GitHub to publish. It comes from Ash Johns' npm account and is set to not expire._
 
-#### Beta Releases
+#### Beta releases
 
 1. Pull the latest from `develop` and create a branch using the pattern `release/X.Y.Z-beta.A`
 2. Run `npm version [beta-version-name]` (write out full version name eg: 5.0.0-beta.9)
 3. Create a pull request from `release/X.Y.Z-beta.A` into `develop`
 4. Run `npm publish --tag beta`
 
-## Token Naming Conventions
+## Token naming conventions
 
 - All new tokens must be placed in their respective groups eg:
 
