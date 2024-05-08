@@ -48,7 +48,7 @@
     "stylelint": "^14.16.1"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,html,css,scss}": "prettier --write",
+    "*.{js,jsx,ts,tsx,json,html,css,scss,yaml,yml}": "prettier --write",
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
     "*.{css,scss}": "stylelint --fix"
   },
