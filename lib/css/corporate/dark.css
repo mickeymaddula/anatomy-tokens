@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 May 2024 17:16:07 GMT
+ * Generated on Mon, 13 May 2024 16:18:11 GMT
  */
 
 :root {
@@ -73,6 +73,11 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
+  --footer-surface: var(--neutral-10);
+  --skip-link-surface: var(--neutral-20);
+  --primary-nav-search-icon-color: var(--neutral-100);
+  --primary-nav-link-description-text-color: var(--neutral-95);
+  --ribbon-informational-text-color: var(--neutral-10);
   --bsc-logo-color-secondary: var(--neutral-100);
   --bsc-logo-color-primary: var(--neutral-100);
   --checkradio-icon-color-disabled: var(--neutral-40);
@@ -92,7 +97,6 @@
   --icon-color-success: var(--feedback-success-40);
   --icon-color-error: var(--feedback-error-60);
   --image-caption-text-color-inverse: var(--neutral-100);
-  --text-color-informational: var(--neutral-10);
   --text-color-visited: var(--accent-primary-80);
   --text-color-inverse: var(--neutral-10);
   --text-color-subtle: var(--neutral-60);

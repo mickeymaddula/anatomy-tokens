@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 May 2024 17:16:07 GMT
+ * Generated on Mon, 13 May 2024 16:18:11 GMT
  */
 
 :root {
@@ -13,7 +13,7 @@
   --feedback-warning-60: #ffa825;
   --feedback-warning-40: #ff9900;
   --feedback-warning-20: #cc7a00;
-  --feedback-success-95: #80ffec;
+  --feedback-success-95: #b3fff4;
   --feedback-success-80: #00e6c3;
   --feedback-success-60: #00b398;
   --feedback-success-40: #008571;
@@ -48,8 +48,7 @@
   --neutral-80: #e1e3e5;
   --neutral-60: #becad0;
   --neutral-40: #8d9ea5;
-  --neutral-20: #61737b;
-  --neutral-15: #5a6b72;
+  --neutral-20: #4f5e64;
   --neutral-10: #2d3539;
   --neutral-00: #000000;
   --bsc-logo-secondary: #6a737b;
@@ -74,6 +73,11 @@
   --space-sm: 0.25rem;
   --space-xs: 0.125rem;
   --space-xxs: 0.063rem;
+  --footer-surface: var(--neutral-10);
+  --skip-link-surface: var(--neutral-10);
+  --primary-nav-search-icon-color: var(--neutral-00);
+  --primary-nav-link-description-text-color: var(--neutral-95);
+  --ribbon-informational-text-color: var(--neutral-10);
   --bsc-logo-color-secondary: var(--neutral-100);
   --bsc-logo-color-primary: var(--neutral-100);
   --checkradio-icon-color-disabled: var(--neutral-80);
@@ -85,7 +89,7 @@
   --surface-action: var(--action-primary-40);
   --surface-informational: var(--action-primary-80);
   --surface-error-assertive: var(--feedback-error-60);
-  --surface-subtle: var(--neutral-15);
+  --surface-subtle: var(--neutral-20);
   --surface-assertive: var(--neutral-100);
   --surface-inverse: var(--neutral-100);
   --surface-default: var(--neutral-10);
@@ -93,7 +97,6 @@
   --icon-color-success: var(--feedback-success-60);
   --icon-color-error: var(--feedback-error-60);
   --image-caption-text-color-inverse: var(--neutral-100);
-  --text-color-informational: var(--neutral-10);
   --text-color-visited: var(--accent-primary-30);
   --text-color-inverse: var(--neutral-00);
   --text-color-subtle: var(--neutral-40);
