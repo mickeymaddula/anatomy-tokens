@@ -19,11 +19,8 @@
     "neutral-10": {
       "value": "#2d3539"
     },
-    "neutral-15": {
-      "value": "#5a6b72"
-    },
     "neutral-20": {
-      "value": "#61737b"
+      "value": "#4f5e64"
     },
     "neutral-40": {
       "value": "#8d9ea5"
@@ -143,7 +140,7 @@
       "value": "#00e6c3"
     },
     "feedback-success-95": {
-      "value": "#80ffec"
+      "value": "#b3fff4"
     }
   },
   "feedback-warning colors": {

@@ -61,9 +61,6 @@
     "text-color-visited": {
       "value": "{accent-primary colors.accent-primary-30}"
     },
-    "text-color-informational": {
-      "value": "{neutral colors.neutral-10}"
-    },
     "image-caption-text-color-inverse": {
       "value": "{neutral colors.neutral-100}"
     }
@@ -92,7 +89,7 @@
       "value": "{neutral colors.neutral-100}"
     },
     "surface-subtle": {
-      "value": "{neutral colors.neutral-15}"
+      "value": "{neutral colors.neutral-20}"
     },
     "surface-error-subtle": {
       "value": "transparent"
@@ -146,6 +143,21 @@
     },
     "bsc-logo-color-secondary": {
       "value": "{neutral colors.neutral-100}"
+    },
+    "ribbon-informational-text-color": {
+      "value": "{neutral colors.neutral-10}"
+    },
+    "primary-nav-link-description-text-color": {
+      "value": "{neutral colors.neutral-95}"
+    },
+    "primary-nav-search-icon-color": {
+      "value": "{neutral colors.neutral-00}"
+    },
+    "skip-link-surface": {
+      "value": "{neutral colors.neutral-10}"
+    },
+    "footer-surface": {
+      "value": "{neutral colors.neutral-10}"
     }
   }
 }

@@ -106,7 +106,6 @@
   "text-color-subtle": "#666666",
   "text-color-inverse": "#ffffff",
   "text-color-visited": "#660099",
-  "text-color-informational": "#000000",
   "image-caption-text-color-inverse": "#ffffff",
   "icon-color-error": "#b31921",
   "icon-color-success": "#2d9f9f",
@@ -131,5 +130,10 @@
   "button-surface-active": "#012965",
   "checkradio-icon-color-disabled": "#999999",
   "bsc-logo-color-primary": "#00467f",
-  "bsc-logo-color-secondary": "#6a737b"
+  "bsc-logo-color-secondary": "#6a737b",
+  "ribbon-informational-text-color": "#000000",
+  "primary-nav-link-description-text-color": "#666666",
+  "primary-nav-search-icon-color": "#000000",
+  "skip-link-surface": "#f2f2f2",
+  "footer-surface": "#f2f2f2"
 }
